@@ -50,10 +50,16 @@ const Header = () => {
             Descargar CV
           </button>
            */}
-          <button className="flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary-700 transition-all duration-300 hover:scale-105">
+         <a
+          href="https://www.linkedin.com/in/luis-meza-hernandez/"  // Reemplaza con tu URL
+  target="_blank"
+  rel="noopener noreferrer">
+            <button className="flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary-700 transition-all duration-300 hover:scale-105">
             <Linkedin size={20} />
             Ver LinkedIn
           </button>
+          </a>
+          
         </div>
 
         {/* Scroll Indicator */}
