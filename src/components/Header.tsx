@@ -30,7 +30,7 @@ const Header = () => {
             Ingeniero de Sistemas
           </h2>
           <h3 className="text-lg md:text-xl text-purple-300">
-            Fullstack & Cloud Developer
+            Software Development Specialist & Cloud Engineer
           </h3>
         </div>
 
