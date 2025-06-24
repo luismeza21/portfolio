@@ -4,8 +4,34 @@ import { CreditCard, AlertTriangle, Search, TrendingUp, ExternalLink } from 'luc
 const Projects = () => {
   const projects = [
     {
+      icon: <TrendingUp className="w-8 h-8" />,
+      title: "Portal empresarial - Holding financiera",
+      description: "Portal completo de una holding regional que integra las bolsas de valores de Santiago, Lima y Colombia, con el objetivo de crear un mercado único y más competitivo para la inversión en la región",
+      technologies: ["Next.js", "GraphQL", "Postgres", "Go", "Kubernetes"],
+      features: ["Informacion de mercados", "Entrega de información en línea", "Información relevantes entre paises"],
+      gradient: "from-purple-500 to-purple-600"
+    },
+    
+    {
+      icon: <TrendingUp className="w-8 h-8" />,
+      title: "Plataforma Digital de Inversión",
+      description: "Plataforma completa para operadores financieros con herramientas de análisis, trading y gestión de portafolios de inversionistas.",
+      technologies: ["Next.js", "GraphQL", "Java", "Node.js", "Postgres", "AWS", "Docker"],
+      features: ["Mercados bursatiles en tiempo real", "Entrega de información en línea", "Gestión de portafolios"],
+      gradient: "from-purple-500 to-purple-600"
+    },
+    {
+      icon: <Search className="w-8 h-8" />,
+      title: "Portal de Consulta Crediticia",
+      description: "Sistema integral para consultas crediticias de consumidores con integración a múltiples centrales de riesgo y análisis predictivo.",
+      technologies: ["Java", "MongoDB", "Angular", "AWS", "Kubernetes"],
+      features: ["Consultas masivas", "Análisis predictivo", "Integración múltiple"],
+      gradient: "from-green-500 to-green-600"
+    },
+    
+    {
       icon: <CreditCard className="w-8 h-8" />,
-      title: "Portal de Pagos PSE",
+      title: "Plataforma PSE - Entidades financieras",
       description: "Sistema de pagos electrónicos para entidades bancarias con alta disponibilidad y máxima seguridad. Procesamiento de transacciones en tiempo real con arquitectura distribuida.",
       technologies: ["Java", "Spring Boot", "PostgreSQL", "AWS", "Docker"],
       features: ["Alta disponibilidad 99.9%", "Seguridad bancaria", "Procesamiento en tiempo real"],
@@ -15,26 +41,11 @@ const Projects = () => {
       icon: <AlertTriangle className="w-8 h-8" />,
       title: "Sistema de Alertas Transaccionales",
       description: "Plataforma de monitoreo y alertas para transacciones financieras con detección de anomalías y notificaciones automáticas en tiempo real.",
-      technologies: ["Node.js", "MongoDB", "Redis", "Azure", "Microservicios"],
+      technologies: ["Java", "Angular", "Postgres", "Redis", "On-premise", "Microservicios", "Kubernetes"],
       features: ["Monitoreo 24/7", "Detección de anomalías", "Alertas automáticas"],
       gradient: "from-red-500 to-red-600"
-    },
-    {
-      icon: <Search className="w-8 h-8" />,
-      title: "Plataforma de Consulta Crediticia",
-      description: "Sistema integral para consultas crediticias de consumidores con integración a múltiples centrales de riesgo y análisis predictivo.",
-      technologies: ["Go", "PostgreSQL", "React", "GCP", "Kubernetes"],
-      features: ["Consultas masivas", "Análisis predictivo", "Integración múltiple"],
-      gradient: "from-green-500 to-green-600"
-    },
-    {
-      icon: <TrendingUp className="w-8 h-8" />,
-      title: "Portal Digital de Inversión",
-      description: "Plataforma completa para operadores financieros con herramientas avanzadas de análisis, trading y gestión de portafolios.",
-      technologies: ["Angular", "Java", "MySQL", "AWS", "Docker"],
-      features: ["Trading en tiempo real", "Análisis avanzado", "Gestión de portafolios"],
-      gradient: "from-purple-500 to-purple-600"
     }
+    
   ];
 
   return (
