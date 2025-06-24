@@ -43,10 +43,13 @@ const Header = () => {
 
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 mb-16 animate-slide-up delay-300">
-          <button className="flex items-center gap-2 bg-white text-primary-700 px-8 py-3 rounded-full font-semibold hover:bg-purple-50 transition-all duration-300 hover:scale-105 shadow-lg">
+          {/**
+           * 
+           * <button className="flex items-center gap-2 bg-white text-primary-700 px-8 py-3 rounded-full font-semibold hover:bg-purple-50 transition-all duration-300 hover:scale-105 shadow-lg">
             <Download size={20} />
             Descargar CV
           </button>
+           */}
           <button className="flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-primary-700 transition-all duration-300 hover:scale-105">
             <Linkedin size={20} />
             Ver LinkedIn

@@ -40,10 +40,15 @@ const Footer = () => {
                 <Mail size={18} />
                 <span>consultingluismezahe@gmail.com</span>
               </div>
-              <div className="flex items-center space-x-3 text-gray-300">
+              {
+                  /**
+                   * <div className="flex items-center space-x-3 text-gray-300">
                 <Phone size={18} />
                 <span>+57 300 123 4567</span>
               </div>
+                   */
+              }
+              
               <div className="flex items-center space-x-3 text-gray-300">
                 <MapPin size={18} />
                 <span>Bogotá, Colombia</span>
