@@ -14,11 +14,13 @@ const Header = () => {
       <div className="relative z-10 container mx-auto px-6 py-20 flex flex-col items-center justify-center min-h-screen text-center">
         {/* Profile Image */}
         <div className="mb-8 animate-fade-in">
-          <div className="w-32 h-32 md:w-40 md:h-40 bg-gradient-to-br from-white/20 to-white/5 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/20">
-            <div className="w-28 h-28 md:w-36 md:h-36 bg-white/10 rounded-full flex items-center justify-center text-4xl md:text-5xl font-bold">
-              LM
-            </div>
-          </div>
+              <div className="w-32 h-32 lg:w-40 lg:h-40 bg-gradient-to-br from-white-400 to-blue-500 rounded-full flex items-center justify-center shadow-2xl border-4 border-white/20 overflow-hidden">
+              <img 
+                src="https://media.licdn.com/dms/image/v2/C5603AQGOCPYFpdwdUw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1624402238645?e=1756339200&v=beta&t=rWatwOB83vix3uNwBP9AsPCq79Phs8OsbWyvpaaWQOk"  // Reemplaza con la ruta de tu imagen
+                alt="Foto de perfil"
+                className="w-full h-full object-cover"
+              />
+              </div>
         </div>
 
         {/* Name and Title */}
